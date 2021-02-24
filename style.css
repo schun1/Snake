@@ -27,31 +27,24 @@ body {
   .foodSeth {
     /* background-color: white; */
     background-image: url("Seth.png");
-    width: 25px;
-    height: 25px;
+    
   }
 
   .foodSydney {
     /* background-color: white; */
     background-image: url("Ney.png");
-    width: 25px;
-    height: 25px;
   }
   
 
   .foodSteph {
     /* background-color: white; */
     background-image: url("Steph.png");
-    width: 25px;
-    height: 25px;
   }
   
 
   .foodMama {
     /* background-color: white; */
     background-image: url("Mama.png");
-    width: 25px;
-    height: 25px;
   }
   
   
