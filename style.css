@@ -26,7 +26,7 @@ body {
   
   .foodSeth {
     /* background-color: white; */
-    background-image: url("Seth.jpg");
+    background-image: url("Seth.png");
     width: 15px;
     height: 15px;
     border: 0.25vmin solid gray;
@@ -34,7 +34,7 @@ body {
 
   .foodSydney {
     /* background-color: white; */
-    background-image: url("Ney.jpg");
+    background-image: url("Ney.png");
     width: 15px;
     height: 15px;
     border: 0.25vmin solid gray;
@@ -43,7 +43,7 @@ body {
 
   .foodSteph {
     /* background-color: white; */
-    background-image: url("Seth.jpg");
+    background-image: url("Steph.png");
     width: 15px;
     height: 15px;
     border: 0.25vmin solid gray;
@@ -52,7 +52,7 @@ body {
 
   .foodMama {
     /* background-color: white; */
-    background-image: url("Seth.jpg");
+    background-image: url("Mama.png");
     width: 15px;
     height: 15px;
     border: 0.25vmin solid gray;

@@ -12,7 +12,7 @@ const main = (currentTime) => {
     }
 
     window.requestAnimationFrame(main);
-    const secondsSinceLastRender = (currentTime - lastRenderTime) / 250;
+    const secondsSinceLastRender = (currentTime - lastRenderTime) / 500;
     if (secondsSinceLastRender < 1 / SNAKE_SPEED) {
         return;
     }
@@ -34,6 +34,7 @@ const draw = () => {
     gameBoard.innerHTML = "";
     drawSnake(gameBoard);
     drawFood(gameBoard);
+    image(true);
 }
 
 const checkGameOver = () => {
