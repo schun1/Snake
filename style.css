@@ -9,7 +9,10 @@ body {
   }
   
   #game-board {
-    background-color: black;
+    background-image: url("Family.jpg");
+    background-repeat: none;
+    background-position: center;
+    opacity: 0.5;
     width: 100vmin;
     height: 100vmin;
     display: grid;
