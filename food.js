@@ -9,10 +9,13 @@ const updateFood = () => {
 }
 
 const drawFood = (gameBoard) => {
+    const foodImages = ['foodMama', 'foodSeth', 'foodSydney', 'foodSteph']
     const foodElement = document.createElement('div');
     foodElement.style.gridRowStart = food.y;
     foodElement.style.gridColumnStart = food.x;
-    foodElement.classList.add('food');
+    for (i=0; i < 4; i++) {
+        foodElement.classList.add(foodImages[i]);
+    }
     gameBoard.appendChild(foodElement);
 }
 

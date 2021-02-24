@@ -24,8 +24,38 @@ body {
     border: 0.25vmin solid black;
   }
   
-  .food {
-    background-color: red;
+  .foodSeth {
+    /* background-color: white; */
+    background-image: url("Seth.jpg");
+    width: 15px;
+    height: 15px;
     border: 0.25vmin solid gray;
   }
+
+  .foodSydney {
+    /* background-color: white; */
+    background-image: url("Ney.jpg");
+    width: 15px;
+    height: 15px;
+    border: 0.25vmin solid gray;
+  }
+  
+
+  .foodSteph {
+    /* background-color: white; */
+    background-image: url("Seth.jpg");
+    width: 15px;
+    height: 15px;
+    border: 0.25vmin solid gray;
+  }
+  
+
+  .foodMama {
+    /* background-color: white; */
+    background-image: url("Seth.jpg");
+    width: 15px;
+    height: 15px;
+    border: 0.25vmin solid gray;
+  }
+  
   
