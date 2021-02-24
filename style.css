@@ -27,35 +27,31 @@ body {
   .foodSeth {
     /* background-color: white; */
     background-image: url("Seth.png");
-    width: 15px;
-    height: 15px;
-    border: 0.25vmin solid gray;
+    width: 18px;
+    height: 18px;
   }
 
   .foodSydney {
     /* background-color: white; */
     background-image: url("Ney.png");
-    width: 15px;
-    height: 15px;
-    border: 0.25vmin solid gray;
+    width: 18px;
+    height: 18px;
   }
   
 
   .foodSteph {
     /* background-color: white; */
     background-image: url("Steph.png");
-    width: 15px;
-    height: 15px;
-    border: 0.25vmin solid gray;
+    width: 18px;
+    height: 18px;
   }
   
 
   .foodMama {
     /* background-color: white; */
     background-image: url("Mama.png");
-    width: 15px;
-    height: 15px;
-    border: 0.25vmin solid gray;
+    width: 18px;
+    height: 18px;
   }
   
   

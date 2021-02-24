@@ -23,22 +23,22 @@ const foodUpdate = () => {
     
 }
 const image = () => {
-    const foodImage = ['foodMama', 'foodSeth', 'foodSeth', 'foodSteph'];
+    const foodImage = ['foodMama', 'foodSeth', 'foodSydney', 'foodSteph', 'foodMama'];
     let snek = snakeBody.length;
     if (snek === 3) {
         i = 0;
     } else if (snek % 4 === 0) {
         console.log('dby4')
-        i = 0;
+        i = 1;
     } else if ((snek + 3) % 4 === 0) {
         console.log('index2')
-        i = 1; 
+        i = 2; 
     } else if ((snek + 2) % 4 === 0) {
         console.log('p2d4')
-        i = 2;
+        i = 3;
     } else if ((snek + 1) % 4 === 0) {
         console.log('me')
-        i = 3;
+        i = 4;
     };
     console.log(i)
     return foodImage[i]
