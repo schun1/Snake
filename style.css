@@ -9,7 +9,8 @@ body {
   }
   
   #game-board {
-    background-image: url("Family.jpg");
+    /* background-image: url("Family.jpg"); */
+    background-color: black;
     background-repeat: none;
     background-position: center;
     opacity: 0.5;
@@ -30,24 +31,28 @@ body {
   .foodSeth {
     /* background-color: white; */
     background-image: url("Seth.png");
+    border: 0.25vmin solid black;
     
   }
 
   .foodSydney {
     /* background-color: white; */
     background-image: url("Ney.png");
+    border: 0.25vmin solid black;
   }
   
 
   .foodSteph {
     /* background-color: white; */
     background-image: url("Steph.png");
+    border: 0.25vmin solid black;
   }
   
 
   .foodMama {
     /* background-color: white; */
     background-image: url("Mama.png");
+    border: 0.25vmin solid black;
   }
   
   
